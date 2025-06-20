@@ -1,6 +1,7 @@
 import TestChatBot from '@/components/TestChatBot'
 import CopyButton from '@/components/CopyButton'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -33,6 +34,23 @@ export default function Home() {
                 className="rounded-lg"
               />
             </div>
+          </div>
+
+          {/* Quick Access to Flashcards */}
+          <div className="mb-8">
+            <Link 
+              href="/flashcards"
+              className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors shadow-lg"
+            >
+              <span className="mr-2">🏥</span>
+              <span className="font-medium">Fysiotherapie Spieren Flashcards</span>
+              <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </Link>
+            <p className="text-sm text-gray-600 mt-2">
+              Interactieve anatomie flashcards voor fysiotherapie studenten
+            </p>
           </div>
         </div>
 
