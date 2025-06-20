@@ -36,21 +36,18 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Quick Access to Flashcards */}
+          {/* Flashcards Navigation */}
           <div className="mb-8">
             <Link 
               href="/flashcards"
-              className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors shadow-lg"
+              className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
             >
               <span className="mr-2">🏥</span>
-              <span className="font-medium">Fysiotherapie Spieren Flashcards</span>
-              <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              Fysiotherapie Spieren Flashcards
+              <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>
             </Link>
-            <p className="text-sm text-gray-600 mt-2">
-              Interactieve anatomie flashcards voor fysiotherapie studenten
-            </p>
           </div>
         </div>
 
@@ -74,7 +71,7 @@ export default function Home() {
                   Stap 1: Fork dit template in GitHub
                 </h3>
                 <p className="text-gray-600 mb-3">
-                  Ga naar <a href="https://github.com" target="_blank" className="text-purple-600 hover:text-purple-800 underline">github.com</a> en login in. Ga dan naar deze pagina: <a href="https://github.com/TomNaberink/apitemplateTom" target=\"_blank" className="text-purple-600 hover:text-purple-800 underline">https://github.com/TomNaberink/apitemplateTom</a>
+                  Ga naar <a href="https://github.com" target="_blank" className="text-purple-600 hover:text-purple-800 underline">github.com</a> en login in. Ga dan naar deze pagina: <a href="https://github.com/TomNaberink/apitemplateTom" target="_blank" className="text-purple-600 hover:text-purple-800 underline">https://github.com/TomNaberink/apitemplateTom</a>
                 </p>
                 <p className="text-gray-600 mb-3">
                   Klik rechtsbovenin op '<strong>Use this template</strong>', geef het een gepaste naam voor je project en klik op '<strong>create fork</strong>'.
